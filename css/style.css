@@ -1,0 +1,12 @@
+*,body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-conatiner{
+    max-width: 1680px;
+    margin: 0 auto;
+    background: cadetblue;
+    border: 2px solid red;
+    height: 900px;
+}
