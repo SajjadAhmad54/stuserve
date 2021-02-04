@@ -3,10 +3,217 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background: grey;
+}
 .main-conatiner{
-    max-width: 1680px;
+    max-width: 1920px;
     margin: 0 auto;
-    background: cadetblue;
-    border: 2px solid red;
     height: 900px;
 }
+.inner-container{
+    max-width: 1350px;
+    margin: 0 auto;
+    height: 400px;
+}
+  /* this  button use in all button in this webpage */
+button{
+    background: #7D83FF;
+    border: 1px solid #530FA4;
+    box-shadow: #000000;
+    outline: none;
+    cursor: pointer;
+}
+
+        /* Login page area  */
+.main-conatiner .sign-up-page{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.main-conatiner .sign-up-page .logo{
+    padding-top: 48px;
+    margin-bottom: 100px;
+}
+.main-conatiner .sign-up-page .sign-up-content{
+    background: url("../images/Sign\ Up.svg") no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 894px;
+    padding: 0px 100px;
+}
+.main-conatiner .sign-up-page .sign-up-content .heading{
+    font-size: 73px;
+    color: white;
+    margin-bottom: 170px;
+}
+.main-conatiner .sign-up-page .sign-up-content .paragraph h1{
+    font-size: 24px;
+    color: white;
+}
+.main-conatiner .sign-up-page .sign-up-content .paragraph p{
+    color: white;
+    font-size: 16px;
+}
+                 /* login form  start*/
+.main-conatiner .sign-up-page .sign-up-form{
+    padding: 0px 100px;
+    background: white;
+}
+.main-conatiner .sign-up-page .sign-up-form .sign-up-form-content{
+    margin-bottom: 37px;
+    color: #6D6D6D;
+}
+.main-conatiner .sign-up-page .sign-up-form .sign-up-form-content h1{
+    font-size: 30px;
+}
+.main-conatiner .sign-up-page .sign-up-form .sign-up-form-content p{
+    font-size: 16px;
+    padding: 0px 0px;
+}
+.main-conatiner .sign-up-page .sign-up-form .input-field p input{
+    width: 517px;
+    height: 40px;
+    border: 1px solid var(--unnamed-color-7d83ff);
+    border: 1px solid #7D83FF;
+    border-radius: 4px;
+    opacity: 1;
+    outline: none;
+    font-size: 16px;
+}
+.main-conatiner .sign-up-page .sign-up-form .input-field label{
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0px 0px;
+}
+.main-conatiner .sign-up-page .sign-up-form .input-field p{
+    margin-bottom: 18px;
+    color: #6D6D6D;
+    padding: 0px 0px;
+}
+.main-conatiner .sign-up-page .sign-up-form .input-field p:last-child{
+    margin-bottom: 0px;
+}
+input::placeholder{
+   font-size: 20px;
+}
+.main-conatiner .sign-up-page .sign-up-form .input-field p input{
+    padding: 0px 10px;
+    line-height: 40px;
+}
+.main-conatiner .sign-up-page .sign-up-form .form{
+    margin-bottom: 56px;
+}
+.main-conatiner .sign-up-page .sign-up-form button{
+    width: 517px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.main-conatiner .sign-up-page .sign-up-form p{
+    padding: 0px 140px;
+  
+}
+.main-conatiner .sign-up-page .sign-up-form p span a{
+    text-decoration: none;
+}
+/* login page area end */
+
+/* Sign up page area start */
+.main-conatiner .login-page{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.main-conatiner .login-page .logo{
+    padding-top: 48px;
+    margin-bottom: 100px;
+}
+.main-conatiner .login-page .login-content{
+    background: url("../images/Bitmap.jpg") no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 894px;
+    padding: 0px 100px;
+}
+.main-conatiner .login-page .login-content .heading{
+    font-size: 73px;
+    color: white;
+    margin-bottom: 170px;
+}
+.main-conatiner .login-page .login-content .paragraph h1{
+    font-size: 24px;
+    color: white;
+}
+.main-conatiner .login-page .login-content .paragraph p{
+    color: white;
+    font-size: 16px;
+}
+                 /* login form  start*/
+.main-conatiner .login-page .login-form{
+    padding: 0px 100px;
+    background: white;
+}
+.main-conatiner .login-page .login-form .login-form-content{
+    margin-bottom: 37px;
+    color: #6D6D6D;
+}
+.main-conatiner .login-page .login-form .login-form-content h1{
+    font-size: 30px;
+}
+.main-conatiner .login-page .login-form .login-form-content p{
+    font-size: 16px;
+    padding: 0px 0px;
+}
+.main-conatiner .login-page .login-form .input-field p input{
+    width: 517px;
+    height: 40px;
+    border: 1px solid var(--unnamed-color-7d83ff);
+    border: 1px solid #7D83FF;
+    border-radius: 4px;
+    opacity: 1;
+    outline: none;
+    font-size: 16px;
+}
+.main-conatiner .login-page .login-form .input-field label{
+    font-size: 16px;
+  line-height: 30px;
+  padding: 0px 0px;
+}
+.main-conatiner .login-page .login-form .input-field p{
+    margin-bottom: 18px;
+    color: #6D6D6D;
+    padding: 0px 0px;
+}
+.main-conatiner .login-page .login-form .input-field p:last-child{
+    margin-bottom: 0px;
+}
+input::placeholder{
+   font-size: 20px;
+}
+.main-conatiner .login-page .login-form .input-field p input{
+    padding: 0px 10px;
+    line-height: 40px;
+}
+.main-conatiner .login-page .login-form .input-field .checkbox input{
+    width: 16px;
+    height: 16px;
+}
+.main-conatiner .login-page .login-form .form{
+    margin-bottom: 56px;
+}
+.main-conatiner .login-page .login-form button{
+    width: 517px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.main-conatiner .login-page .login-form p{
+    padding: 0px 140px;
+  
+}
+.main-conatiner .login-page .login-form p span a{
+    text-decoration: none;
+}
+
+/* Sign up page area end */
