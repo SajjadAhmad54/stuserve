@@ -2,19 +2,24 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family:"Avenir-Medium" ;   
 }
-body{
-    background: grey;
+/* body{
+    background:#A7A7A7;
+} */
+@font-face {
+    font-family: "Avenir-Medium" ;
+   src: url("../fonts/Avenir-Medium.ttf");
 }
 .main-conatiner{
     max-width: 1920px;
     margin: 0 auto;
-    height: 900px;
+    background: white;
+    /* padding-bottom: 40px; */
 }
 .inner-container{
-    max-width: 1350px;
+    max-width: 1240px;
     margin: 0 auto;
-    height: 400px;
 }
   /* this  button use in all button in this webpage */
 button{
@@ -23,8 +28,8 @@ button{
     box-shadow: #000000;
     outline: none;
     cursor: pointer;
+    border-radius: 5px;
 }
-
         /* Login page area  */
 .main-conatiner .login-page{
     display: grid;
@@ -35,16 +40,17 @@ button{
     margin-bottom: 100px;
 }
 .main-conatiner .login-page .login-content{
-    background: url("../images/Bitmap.jpg") no-repeat;
+    background: url("../images/Group\ 10473.svg") no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 894px;
-    padding: 0px 120px;
+    width: 800px;
+    height: 900px;
+    padding: 0px 93px;
 }
-.main-conatiner .login-page .login-content .heading{
+.main-conatiner .login-page .login-content .heading h1{
     font-size: 73px;
     color: white;
     margin-bottom: 170px;
+    line-height: 80px;
 }
 .main-conatiner .login-page .login-content .paragraph h1{
     font-size: 24px;
@@ -69,6 +75,7 @@ button{
 .main-conatiner .login-page .login-form .login-form-content p{
     font-size: 16px;
    text-align: left;
+   line-height: 20px;
 }
 .main-conatiner .login-page .login-form .input-field p input{
     width: 517px;
@@ -130,19 +137,20 @@ input::placeholder{
 }
 .main-conatiner .sign-up-page .logo{
     padding-top: 48px;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 .main-conatiner .sign-up-page .sign-up-content{
    background: url("../images/Group\ 10473.svg") no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 894px;
-    padding: 0px 120px;
+    width: 800px;
+    height: 900px;
+    padding: 0px 93px;
 }
-.main-conatiner .sign-up-page .sign-up-content .heading{
+.main-conatiner .sign-up-page .sign-up-content .heading h1{
     font-size: 73px;
     color: white;
     margin-bottom: 170px;
+    line-height: 80px;
 }
 .main-conatiner .sign-up-page .sign-up-content .paragraph h1{
     font-size: 24px;
@@ -206,7 +214,7 @@ input::placeholder{
     height: 40px;
     color: white;
     font-size: 16px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .main-conatiner .sign-up-page .sign-up-form p{
     text-align: center;
@@ -228,14 +236,15 @@ input::placeholder{
 .main-conatiner .forget-password-page .forget-password-content{
     background: url("../images/Group\ 10475.svg") no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 894px;
-    padding: 0px 120px;
+    width: 800px;
+    height: 900px;
+    padding: 0px 93px;
 }
-.main-conatiner .forget-password-page .forget-password-content .heading{
+.main-conatiner .forget-password-page .forget-password-content .heading h1{
     font-size: 73px;
     color: white;
     margin-bottom: 170px;
+    line-height: 80px;
 }
 .main-conatiner .forget-password-page .forget-password-content .paragraph h1{
     font-size: 24px;
@@ -293,10 +302,6 @@ input::placeholder{
     padding: 0px 10px;
     line-height: 40px;
 }
-/* .main-conatiner .forget-password-page .forget-password-form .input-field .checkbox input{
-    width: 16px;
-    height: 16px;
-} */
 .main-conatiner .forget-password-page .forget-password-form .form{
     margin-bottom: 56px;
 }
@@ -309,9 +314,277 @@ input::placeholder{
 }
 .main-conatiner .forget-password-page .forget-password-form p{
     padding: 0px 140px;
-  
 }
 .main-conatiner .forget-password-page .forget-password-form button a{
     text-decoration: none;
     color: white;
 }
+ /* User Profile Start */
+.main-conatiner .inner-container header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 100px;
+    margin-bottom: 20px;
+}
+.main-conatiner .inner-container header .menu{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+  /* Left Menu */
+.main-conatiner .inner-container header .menu .left-menu ul{
+    height: 56px;
+}
+.main-conatiner .inner-container header .menu .left-menu ul li{
+    display: inline-block;
+    margin-right: 46px;
+    line-height: 56px;
+}
+.main-conatiner .inner-container header .menu .left-menu ul li:last-child{
+    margin-right: 0px;
+}
+.main-conatiner .inner-container header .menu .left-menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #A7A7A7;
+}
+.main-conatiner .inner-container header .menu .left-menu ul li a:hover{
+    color: blue;
+}
+  /* Right Menu  */
+  .main-conatiner .inner-container header .menu .right-menu{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+  }
+  .main-conatiner .inner-container header .menu .right-menu img{
+      align-self: center;
+  }
+  .main-conatiner .inner-container header .menu .right-menu ul{
+    height: 56px; 
+}
+.main-conatiner .inner-container header .menu .right-menu ul li{
+    display: inline-block;
+    line-height: 56px; 
+    margin-right: 36px;
+}
+.main-conatiner .inner-container header .menu .right-menu ul li:last-child{
+    margin-right: 0px;
+}
+.main-conatiner .inner-container header .menu .right-menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #A7A7A7;
+}
+.main-conatiner .inner-container header .menu .right-menu ul li a:hover{
+    color: blue;
+}
+.main-conatiner .inner-container .side-menu-profile{
+    display: grid;
+    grid-template-columns: 167px 1fr;
+    grid-gap: 100px;
+    justify-items: center;
+}
+.main-conatiner .inner-container .side-menu-profile .sports-club-menu ul li {
+    list-style: none;
+    margin-bottom: 6px;
+}
+.main-conatiner .inner-container .side-menu-profile .sports-club-menu ul li:last-child{
+    margin-bottom: 0px;
+}
+.main-conatiner .inner-container .side-menu-profile .sports-club-menu ul li a{
+   text-transform: capitalize;
+   font-size: 16px;
+   color: black;
+   text-decoration: none;
+}
+.main-conatiner .inner-container .side-menu-profile .sports-club-menu ul li a:hover{
+    color: blue;
+}
+.main-conatiner .inner-container .side-menu-profile .sports-club-menu ul li ul{
+    margin-top: 10px;
+}
+.main-conatiner .inner-container .side-menu-profile .sports-club-menu ul li ul li a{
+    text-transform: capitalize;
+    color: #A7A7A7;
+}
+.main-conatiner .inner-container .side-menu-profile .user-profile-logo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main-conatiner .inner-container .side-menu-profile .sports-club-menu ul li ul{
+    margin-top: 10px;
+}
+.main-conatiner .inner-container .side-menu-profile .user-profile form .input-field input{
+    width: 704px;
+    height: 50px;
+    outline: none;
+    background: #F9F9FC;
+    border: none;
+    padding: 0px 10px;
+    line-height: 50;
+    border-radius: 10px;
+}
+.main-conatiner .inner-container .side-menu-profile .user-profile form .input-field select{
+    width: 704px;
+    height: 50px;
+    outline: none;
+    background: #F9F9FC;
+    border: none;
+    padding: 0px 10px;
+    line-height: 50;
+    border-radius: 10px;
+}
+.main-conatiner .inner-container .side-menu-profile .user-profile form .input-field p{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin-bottom: 44px;
+}
+.main-conatiner .inner-container .side-menu-profile .user-profile form .input-field p:last-child{
+    margin-bottom: 0px;
+}
+/* Stuserve guilds */
+.main-conatiner .inner-container .side-menu-profile{
+    display: grid;
+    grid-template-columns: 167px 1fr;
+    grid-gap: 100px;
+    justify-items: left;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-guilds{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 17px;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-guilds .stuserve-boxes .stuserve-heading{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: end;
+    margin-bottom: 15px;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-guilds .stuserve-boxes .stuserve-heading h1{
+    font-weight: normal;
+    font-size: 20px;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-guilds .stuserve-boxes .stuserve-heading img{
+    align-self: center;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-guilds .stuserve-boxes{
+    box-shadow: 0px 0px 6px 0px;
+    border-radius: 10px;
+    max-width: 476px;
+    /* padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 21px; */
+    padding: 19px 22px;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-guilds .stuserve-boxes p{
+    margin-bottom: 19px;
+    font-size: 16px;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-guilds .stuserve-boxes button{
+    width: 130px;
+    height: 30px;
+    color: white;
+    line-height: 30px;
+}
+                                   /* feed and posts */
+.main-conatiner .inner-container .side-menu-profile{
+    margin-bottom: 30px;
+}                                   
+.main-conatiner .inner-container .side-menu-profile .all-posts-menu ul #posts-menu{
+    color: black;
+}
+.main-conatiner .inner-container .side-menu-profile .all-posts-menu ul li {
+    list-style: none;
+    margin-bottom: 28px;
+}
+.main-conatiner .inner-container .side-menu-profile .all-posts-menu ul li:last-child{
+    margin-bottom: 0px;
+}
+.main-conatiner .inner-container .side-menu-profile .all-posts-menu ul li a{
+    text-decoration: none;
+    color: #A7A7A7;
+}
+.main-conatiner .inner-container .side-menu-profile .all-posts-menu ul li a:hover{
+    color: blue;
+}
+.main-conatiner .inner-container .side-menu-profile .all-posts-menu ul li ul{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.main-conatiner .inner-container .side-menu-profile .all-posts-menu ul li .first-inner-menu li{
+    margin-bottom: 10px;
+}
+.main-conatiner .inner-container .my-post{
+    width: 140px;
+    height: 30px;
+    color: white;
+    margin-left:266px;
+    margin-bottom: 10px;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 17px;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .feed-boxes{
+    width: 476px;
+    /* height: 192px; */
+    box-shadow: 0px 0px 6px 0px;
+    border-radius: 10px;
+    padding: 19px 22px;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .feed-boxes .stuserve-heading{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: end;
+    /* margin-bottom: 15px; */
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .feed-boxes .stuserve-heading h1{
+    font-size: 16px;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .feed-boxes .stuserve-heading img{
+    align-self: center;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .feed-boxes h4{
+    color: #8F8F8F;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .feed-boxes p{
+    line-height: 20px;
+    color: #393939;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .feed-boxes img{
+    margin-bottom: 8px;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .feed-boxes .mesaging{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 6px;
+    align-items: center;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .feed-boxes .mesaging .icons{
+    justify-self: end;
+    width: 12px;
+    height: 16px;
+}
+/* .main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .feed-posts-boxes{
+    width: 476px;
+    height: 192px;
+    box-shadow: 0px 0px 6px 0px;
+    border-radius: 10px; 
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .posts-boxes{
+    width: 476px;
+    height: 192px;
+    box-shadow: 0px 0px 6px 0px;
+    border-radius: 10px; 
+} */
