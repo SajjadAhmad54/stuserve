@@ -51,6 +51,7 @@ button{
     color: white;
     margin-bottom: 170px;
     line-height: 80px;
+    font-weight: normal;
 }
 .main-conatiner .login-page .login-content .paragraph h1{
     font-size: 24px;
@@ -155,6 +156,7 @@ input::placeholder{
     color: white;
     margin-bottom: 170px;
     line-height: 80px;
+    font-weight: normal;
 }
 .main-conatiner .sign-up-page .sign-up-content .paragraph h1{
     font-size: 24px;
@@ -250,6 +252,7 @@ input::placeholder{
     color: white;
     margin-bottom: 170px;
     line-height: 80px;
+    font-weight: normal;
 }
 .main-conatiner .forget-password-page .forget-password-content .paragraph h1{
     font-size: 24px;
