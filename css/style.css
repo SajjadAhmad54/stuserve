@@ -175,6 +175,7 @@ input::placeholder{
 .main-conatiner .sign-up-page .sign-up-form .sign-up-form-content p{
     font-size: 16px;
     text-align: left;
+    line-height: 20px;
 }
 .main-conatiner .sign-up-page .sign-up-form .input-field p input{
     width: 517px;
@@ -492,7 +493,7 @@ input::placeholder{
 }
                                    /* feed and posts */
 .main-conatiner .inner-container .side-menu-profile{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }                                   
 .main-conatiner .inner-container .side-menu-profile .all-posts-menu ul #posts-menu{
     color: black;
