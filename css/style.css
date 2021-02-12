@@ -483,9 +483,6 @@ input::placeholder{
     box-shadow: 0px 0px 3px 0px;
     border-radius: 10px;
     max-width: 476px;
-    /* padding-left: 19px;
-    padding-right: 19px;
-    padding-bottom: 21px; */
     padding: 19px 22px;
 }
 .main-conatiner .inner-container .side-menu-profile .stuserve-guilds .stuserve-boxes p{
@@ -579,20 +576,102 @@ input::placeholder{
     grid-gap: 6px;
     align-items: center;
 }
+.main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .feed-boxes .mesaging img{
+    margin-bottom: 0px;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .feed-boxes .mesaging h3{
+    font-weight: normal;
+}
 .main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .feed-boxes .mesaging .icons{
     justify-self: end;
     width: 12px;
     height: 16px;
 }
-/* .main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .feed-posts-boxes{
-    width: 476px;
-    height: 192px;
-    box-shadow: 0px 0px 6px 0px;
-    border-radius: 10px; 
+  /* first single post start */
+.main-conatiner .inner-container .side-menu-profile .first-single-posts{
+    width: 826px;
+    padding: 46px 52px;
+    box-shadow: 0px 0px 3px 0px;
+    border-radius: 10px;
 }
-.main-conatiner .inner-container .side-menu-profile .stuserve-feed-posts .posts-boxes{
-    width: 476px;
-    height: 192px;
-    box-shadow: 0px 0px 6px 0px;
-    border-radius: 10px; 
-} */
+.main-conatiner .inner-container .side-menu-profile .first-single-posts  .stuserve-post-heading{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: end;
+    /* margin-bottom: 15px; */
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts  .stuserve-post-heading img{
+    align-self: center;
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts  h4{
+    font-weight: normal;
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts  p{
+    margin-bottom: 17px;
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts  img{
+    margin-bottom: 20px;
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts  .post-mesaging{
+    display: grid;
+    grid-template-columns: auto  auto auto auto 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts  .post-mesaging img{
+    margin-bottom: 0px;
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts .post-mesaging h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts  .post-mesaging h3{
+    font-weight: normal;
+    font-size: 18px;
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts  .post-mesaging .posts-icons{
+    justify-self: end;
+    width: 12px;
+    height: 16px;
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts .first-comment-field img{
+    margin-bottom: 0px;
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts .first-comment-field {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    grid-gap: 19px;
+    margin-bottom: 12px;
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts .first-comment-field input{
+    width: 218px ;
+    height: 38px;
+    outline: none;
+    padding: 0px 8px;
+    font-size: 16px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+}
+input::placeholder{
+    line-height: 38px;
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts .second-comment{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 19px;
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts .second-comment img{
+    margin-bottom: 0px;
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts .second-comment .comment h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+.main-conatiner .inner-container .side-menu-profile .first-single-posts .second-comment .comment h3{
+    font-weight: normal;
+    font-size: 18px;
+}
