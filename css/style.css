@@ -489,11 +489,14 @@ input::placeholder{
     margin-bottom: 19px;
     font-size: 16px;
 }
-.main-conatiner .inner-container .side-menu-profile .stuserve-guilds .stuserve-boxes button{
+.main-conatiner .inner-container .side-menu-profile .stuserve-guilds .stuserve-boxes .subscribe-btn {
     width: 130px;
     height: 30px;
     color: white;
     line-height: 30px;
+}
+.main-conatiner .inner-container .side-menu-profile .stuserve-guilds .stuserve-boxes button.subscribed {
+    background-color: grey;
 }
                                    /* feed and posts */
 .main-conatiner .inner-container .side-menu-profile{
@@ -674,4 +677,12 @@ input::placeholder{
 .main-conatiner .inner-container .side-menu-profile .first-single-posts .second-comment .comment h3{
     font-weight: normal;
     font-size: 18px;
+}
+/* first single post end */
+/* second single post start */
+.main-conatiner .inner-container .side-menu-profile .first-single-posts.have-border {
+    width: 826px;
+    padding: 46px 52px;
+    box-shadow: 0px 0px 0px 0px;
+    border-radius: 10px;
 }
