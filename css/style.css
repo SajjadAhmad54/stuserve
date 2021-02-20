@@ -303,6 +303,7 @@ input::placeholder{
 }
 input::placeholder{
    font-size: 20px;
+   line-height: 40px;
 }
 .main-conatiner .forget-password-page .forget-password-form .input-field p input{
     padding: 0px 10px;
@@ -358,14 +359,23 @@ input::placeholder{
 .main-conatiner .inner-container header .menu .left-menu ul li a:hover{
     color: black;
 }
-.main-conatiner .inner-container header .menu .left-menu ul li a.active{
+/* .main-conatiner .inner-container header .menu .left-menu ul li a.active{
     /* color: black; */
-}
   /* Right Menu  */
   .main-conatiner .inner-container header .menu .right-menu{
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-gap: 10px;
+    position: relative;
+  }
+  .main-conatiner .inner-container header .menu .right-menu .harry-img{
+   padding-left: 50px;
+   
+  }
+  .main-conatiner .inner-container header .menu .right-menu .harry-img img{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(0,-50%);
+      width: 40px;
+      height: 40px;
   }
   .main-conatiner .inner-container header .menu .right-menu img{
       align-self: center;
